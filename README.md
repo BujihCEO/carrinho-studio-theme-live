@@ -4,4 +4,6 @@ Este repositório contém somente os arquivos de tema que o usuário publica pel
 
 O repositório do editor e seus perfis locais permanecem privados. Ao publicar, o editor envia apenas o perfil ativo, incluindo as opções visuais, textos, logo, favicon e mídias de avaliações usadas pelo tema.
 
-Os arquivos gerados ficam em `profiles/<id>/bundle.js`. Não inclua backups, tokens, dados de clientes ou arquivos de configuração do editor neste repositório.
+Cada perfil publicado fica em `profiles/<id>/bundle.js` e `profiles/<id>/theme.css`. O script da Montink carrega os dois arquivos do GitHub Pages.
+
+Não inclua backups, tokens, dados de clientes ou arquivos de configuração do editor neste repositório.
