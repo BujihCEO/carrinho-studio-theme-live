@@ -292,13 +292,14 @@ body.va-montink{--va-progress-bg:#eef5ec;--va-progress-text:#315343;--va-card:#f
     .va-catalog__card, .va-catalog__image { transition: none; }
   }
 
+@font-face{font-family:"IntroRust";src:url("https://cdn.shopify.com/s/files/1/0765/3261/3287/files/IntroRust.woff2?v=1787137737") format("woff2");font-display:swap}
 
 
 /* Carrinho Studio · personalização do tema Montink */
-body.va-montink{--va-cream:#f7f4ea;--va-green:#173f31;--va-dark:#173f31;--va-yellow:#f6bd28;--va-text:#20372c;--va-progress-bg:#eef5ec;--va-progress-text:#315343;--va-card:#ffffff;--va-card-radius:16px;--va-button-radius:10px;--va-notice-height:46px;--va-notice-size:14px;--va-mobile-notice-height:38px;--va-mobile-notice-size:11px;background:#f5f5f1!important;color:#20372c!important;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important}
+body.va-montink{--va-cream:#f7f4ea;--va-green:#173f31;--va-dark:#173f31;--va-yellow:#f6bd28;--va-text:#20372c;--va-progress-bg:#eef5ec;--va-progress-text:#315343;--va-card:#ffffff;--va-card-radius:16px;--va-button-radius:10px;--va-notice-height:36px;--va-notice-size:16px;--va-mobile-notice-height:32px;--va-mobile-notice-size:12px;background:#f5f5f1!important;color:#20372c!important;font-family:"IntroRust",Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important}
 .va-montink #render-mode{background:#f5f5f1!important}
-.va-montink :is(h1,h2,h3,.titulo,.nome){font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important;color:inherit}
-.va-montink .va-panel-title{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important;color:#173f31!important}
+.va-montink :is(h1,h2,h3,.titulo,.nome){font-family:"IntroRust",Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important;color:inherit}
+.va-montink .va-panel-title{font-family:"IntroRust",Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important;color:#173f31!important}
 .va-montink .va-panel-close{color:#173f31!important}
 .va-montink .va-notice{background:#173f31!important;color:#ffffff!important}
 .va-montink .va-mobile-notice{background:#173f31!important;color:#ffffff!important}
